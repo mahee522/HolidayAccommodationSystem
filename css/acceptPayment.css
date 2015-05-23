@@ -1,0 +1,75 @@
+/*
+	Name: acceptPayment.css
+	Purpose: Style Sheet for the acceptPayment.php page
+	Author: Jason O'Neill March '15
+*/
+#content{
+	color: white;
+}
+input{
+	border: 2pt solid white;
+	font: 17px sans-serif;
+	text-align: center;
+}
+#inputs{
+	text-align: right;
+}
+#chooseLabel{
+	font-size: 22px;
+	color: yellow;
+}
+h1{
+	font-size: 22px;
+	text-align: center;
+	padding-left: 82px;
+	color: yellow;
+}
+#choose{
+	color: #f5f5f5;
+	padding: 8px;
+	font-size: 20px;
+	font: 17px sans-serif;
+	text-align: center;
+	width: 240px;
+	margin-left: 20px;
+}
+#fields{
+	border: 2pt solid grey;
+	border-radius: 10px;		/*Curve corners of border*/
+	padding-top: 30px;
+	padding-right: 80px;
+	margin-left: 20px;
+	width: 400px;
+	height: 448px;
+	float: left;
+}
+#payments{
+	border: 2pt solid white;
+	border-radius: 10px;
+	padding-top: 30px;
+	padding-right: 80px;
+	width: 400px;
+	height: 165px;
+	float: right;
+}
+#amountPaid{
+	width: 120px;
+}
+#paymentMethod{
+	width: 120px;
+}
+#buttons{
+	text-align: right;
+	padding-right: 80px;
+	margin-top: 300px;
+}
+#submitButton{
+	width: 140px;
+	padding: 8px;
+	background: rgb(10, 90, 120); /* this is a light blue - Colours the submit button*/
+}
+#resetButton{
+	width: 140px;
+	padding: 8px;
+    background: rgb(202, 60, 60); /* this is a maroon - Colours the clear button*/
+}

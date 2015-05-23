@@ -1,0 +1,146 @@
+/*
+  Created by Ivan
+  Student #  - c00185055
+  Course: Software Development
+
+  Purpose - Styling Client Arrival screen
+*/
+
+/* properties for listbox */
+select{
+    width: 180px;
+    font-size: 12px;
+    margin-top: 10px;
+    border: 2px solid #031613;
+    height: 28px;
+    padding-left: 10px;
+    font: 15px sans-serif;
+
+
+}
+/* Section for all input fields that are used in dynamic section */
+#inputs{
+    padding: 50px 25px 20px 25px ;
+    color: #f5f5f5;
+    margin: 0 auto;
+    height: 500px;
+    width: 895px;
+}
+
+/* Listbox section */
+#listBoxSection{
+    float: left;
+    border: 2px solid #f5f5f5;
+    width: 180px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+/* bookingStatus and BookingID input field have same properties */
+#bookingStatus, #bookingID{
+    width: 180px;
+}
+
+#bookingStatus{
+    color: darkred; /* font color by default -> during working session may change to black using a js */
+}
+/* Left side input fields */
+#leftSide{
+    padding: 10px 10px 10px 10px;
+    margin-left: 50px;
+    float: left;
+}
+/* Right side fields */
+#rightSided{
+    padding: 10px 10px 10px 10px;
+    float: left;
+    margin-left: 100px;
+
+}
+/* properties for all input fields */
+input{
+    width: 210px;
+    height: 28px;
+    border-radius: 5px;
+    font: 17px sans-serif;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 2px solid #031613; /* Holly */
+    display: block;
+
+}
+/* textareas properties */
+#address, #specialFeatures{
+    width: 210px;
+    border-radius: 5px;
+    font: 15px sans-serif;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    border: 2px solid #031613; /* Holly */
+    display: block;
+    height: 140px;
+    resize: none;
+}
+
+/* Label properties */
+label{
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: blanchedalmond;
+    height: 100px;
+}
+
+/* Div for buttons */
+#buttons{
+    text-align: center;
+    height: 38px;
+    float:right;
+    width: 650px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 60px;
+
+}
+/* Button properties */
+.submit, .clear{
+    width: 180px;
+    height: 35px;
+    border-radius:5px;
+    color: #fff;
+    font-size: 14pt;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+    padding: 5px;
+
+}
+
+.submit{
+    background: rgb(10, 90, 120); /* this is a light blue */
+}
+
+.clear{
+    background: rgb(202, 60, 60); /* this is a maroon */
+    margin-right: 2px;
+
+
+}
+
+.clear:hover{
+    color: blanchedalmond;
+    border: none;
+    background: rgb(160, 40, 20); /* this is a light blue */
+    box-shadow: 1px 3px 10px white;
+
+}
+
+.submit:hover {
+    color: blanchedalmond;
+    background: rgb(30, 70, 90); /* this is a light blue */
+    border: none;
+    box-shadow: 1px 3px 10px white;
+}

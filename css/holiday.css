@@ -1,0 +1,185 @@
+/* This is main css (template for all web pages) */
+
+
+@import url('http://webfonts.ru/import/abeezee.css'); /* import font "abeezee" */
+@import "http://webfonts.ru/import/bodonitown.css";
+@import "http://webfonts.ru/import/creteround.css";
+
+body{
+    background-image: url("../images/winter.jpg");
+    background-size: cover;
+}
+/* import font that is stores on the server*/
+@font-face {
+    font-family: headerFont;
+    src: url(../font/alegr/alegreyasans-bold.ttf);
+}
+
+#wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+/* Main section for all content */
+#site{
+    width: 1200px;
+    height: 900px;
+    margin: 25px auto;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+
+#menuSection{
+    height: 855px;
+    width: 200px;
+    float: left;
+
+}
+
+#logoSection{
+    width: 199px;
+    height: 150px;
+
+}
+
+#logo{
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+#menuList{
+    border-top: 2px solid #4B5261; /* Trout Color */
+    display: inline;
+    list-style: none;
+    font-size: 15px;
+    font-family: 'Crete Round';
+    font-weight: 300;
+    width: 200px;
+    height: 708px;
+    text-align: center;
+    background-color: whitesmoke;
+    float: left;
+}
+
+#menuList li {
+    position: relative;
+    padding: 22px 14px; /* Top to left */
+    cursor: pointer;
+    transition: all 0.25s;
+    text-decoration: none;
+    background-color: #f5f5f5; /* White Sand */
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+#menuList li:hover {
+    background: #25344D /* Midnight */;
+    color: whitesmoke;
+}
+#menuList li ul {
+    padding: 0;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    width: 250px; /*dropdown menu size */
+    opacity: 0;         /* CSS dropdown menu trick -> sets opacity and visibility to hidden */
+    visibility: hidden; /* */
+
+
+}
+#menuList li ul li {
+    background: #18415D; /* Chastmas Blue */
+    color: #f5f5f5;      /* White Sand */
+    display: block;
+}
+#menuList li ul li:hover {
+    background-color: antiquewhite;
+    color: black;
+    border-right: 1px solid;
+    border-left: 1px solid;
+}
+
+
+#menuList li:hover ul {
+    opacity: 1;
+    visibility: visible;
+
+}
+
+/* Properties for all links */
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+
+/* Icons for dropdown menu */
+.icons{
+    width: 22px;
+    height: 22px;
+    padding-left: 3px;
+    padding-right: 3px;
+    float: left;
+}
+
+#header{
+    margin-left: 200px;
+    height: 150px;
+    width: 998px;
+    text-align: center;
+    font-family: headerFont;
+    border-left: 2px solid black;
+}
+
+#headerText{
+    font-size: 50px;
+    padding-top: 40px;
+    color: whitesmoke;
+    padding-bottom: 20px;
+}
+/* Main section for all dynamic content */
+#content{
+    margin-left: 200px;
+    width: 1000px;
+    height: 730px;
+}
+
+/* Section for screen heading and time sections */
+#LocationTimeSection{
+    color: #1C3345;  /* Regal Blue */
+    width: 998px;
+    height: 39px;
+    border-top: 1px solid #4B5261;  /* Trout Color */
+    border-bottom: 1px solid #4B5261; /* Trout Color */
+    font: bold 16px sans-serif;
+    background-color: #f5f5f5;  /* White sand */
+
+
+}
+/* Section corresponds for screen heading*/
+#location {
+    width: 400px;
+    text-align: left;
+    padding-left: 65px;
+    padding-top: 10px;
+}
+/* Section that is used for real time clock*/
+#time{
+    text-align: right;
+    margin-top: -20px;
+    padding-right: 80px;
+}
+
+/* Footer */
+#footer{
+    font-family: 'Bodonitown';
+    border-top: 2px solid black;
+    height: 40px;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 10px;
+    margin-top: -20px;
+
+}
+

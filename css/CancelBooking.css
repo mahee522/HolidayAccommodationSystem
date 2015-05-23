@@ -1,0 +1,128 @@
+/*
+  Created by Ivan
+  Student #  - c00185055
+  Course: Software Development
+
+  Purpose - Styling Cancel Booking screen
+*/
+
+/* Report section -contains all dynamic content from Database */
+.reportSection{
+    overflow: scroll;
+    width: auto;
+    height: 520px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: 2px solid honeydew;
+    border-radius: 8px;
+    background-color: whitesmoke;
+}
+
+/* Properties for radio button array */
+.radio{
+    width: 20px;
+    height: 28px;
+    cursor: pointer;
+
+}
+
+/* section for search box */
+#searchSection{
+    padding-top: 10px;
+    margin-left: 25px;
+    padding-bottom: 20px;
+
+}
+/* search field properties */
+.search{
+    width: 200px;
+    border-radius: 8px;
+    border: 2px solid black;
+    padding: 8px 5px 5px 30px;
+    font-size: 16px;
+    background: url(../Icons/search_black.png) no-repeat scroll 10px 10px;
+    background-color: gainsboro;
+    color: black;
+  }
+
+.search:focus{
+    background-color: aliceblue;
+}
+
+
+#bookingsTable, td {
+    border-color: aliceblue;
+    border-collapse: collapse;
+    border-spacing: 1px;
+
+    padding-left: 2px;
+    padding-right: 2px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* Booking report table */
+#bookingsTable{
+    background-color: grey;
+    width: 1100px;
+}
+/* Css proreties to alter row colors */
+.row:nth-child(even) {background: #CCC}
+.row:nth-child(odd) {background: #FFF}
+
+
+.row:hover {
+    background-color: #25344D;
+    color: whitesmoke;
+}
+
+/* table headers */
+th {
+    border: 2px solid;
+    background-color: black;
+    font: bold 16px sans-serif;
+    color: #fff;
+    padding: 20px 10px 10px 10px;
+    height: 60px;
+    border-radius: 8px;
+
+}
+td{
+    height: 40px;
+    padding: 10px 10px 10px 10px;
+}
+
+/* section for cancel booking button */
+#button{
+    text-align: right;
+    height: 38px;
+    float:right;
+    width: 650px;
+    margin-top: 50px;
+    padding-right: 25px;
+
+}
+
+/* Submit button */
+.submit{
+    width: 180px;
+    height: 35px;
+    border-radius:5px;
+    color: #fff;
+    font-size: 14pt;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+    padding: 5px;
+    background: rgb(10, 90, 120); /* this is a light blue */
+}
+
+
+/* Submit button on hover */
+.submit:hover {
+    color: blanchedalmond;
+    background: rgb(30, 70, 90); /* this is a light blue */
+    border: none;
+    box-shadow: 1px 3px 10px white;
+}
+

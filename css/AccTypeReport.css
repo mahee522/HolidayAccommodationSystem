@@ -1,0 +1,132 @@
+/*
+  Created by Ivan
+  Student #  - c00185055
+  Course: Software Development
+
+  Purpose - Styling Accommodation Type Report screen
+*/
+
+
+/* Report section -contains all dynamic content from Database */
+.reportSection{
+    overflow: scroll;  /* The overflow property specifies that content of this div will be scrollable */
+    width: auto;
+    height: 600px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: 2px solid honeydew;
+    border-radius: 8px;
+    background-color: whitesmoke;
+}
+/* search and buttons section */
+#searchSortSection{
+    padding-top: 10px;
+    margin-left: 25px;
+    padding-bottom: 20px;
+}
+
+/* Properties for search box */
+.search{
+    width: 200px;
+    border-radius: 8px;
+    border: 2px solid black;
+    padding: 8px 5px 5px 30px;
+    font-size: 16px;
+    background: url(../Icons/search_black.png) no-repeat 10px 10px; /* Css trick to set icon for input field */
+    background-color: gainsboro;
+    color: black;
+}
+/* on focus -> change background */
+.search:focus{
+    background-color: aliceblue;
+}
+/* Accommodation report table */
+#accTable, td {
+    border-color: aliceblue;
+    border-spacing: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-align: center;
+
+}
+#accTable{
+    background-color: grey;
+    width: 950px;
+}
+
+/* Css proreties to alter row colors */
+.row:nth-child(even) {background: #CCC}  /* even row -> gray */
+.row:nth-child(odd) {background: #FFF}   /* odd row -> white */
+
+.row:hover {
+    background-color: #25344D;
+    color: whitesmoke;
+}
+
+
+/* table headers */
+th {
+    border: 2px solid;
+    background-color: black;
+    font: bold 16px sans-serif;
+    color: #fff;             /* white */
+    padding: 20px 5px 10px 10px;
+    height: 60px;
+    border-radius: 8px;
+}
+td{
+    height: 40px;
+    padding: 10px 10px 10px 10px;
+}
+
+
+/* Popular Accommodations Button */
+#popAccBtn{
+    width: 230px;
+    height: 34px;
+    padding: 6px;
+    border-radius:5px;
+    color: whitesmoke;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid gray;
+    background: rgb(55, 126, 78); /* this is a light green */
+}
+
+
+/* Popular Accommodations Button on hover */
+#popAccBtn:hover {
+    color: blanchedalmond;
+    background: rgb(42, 79, 59); /* this is a dark green */
+    border: none;
+    border: 1px solid black;
+    box-shadow: 1px 3px 10px white;
+}
+
+
+/* Popular Accommodations Button */
+#accOrderBtn{
+    width: 230px;
+    height: 34px;
+    padding: 6px;
+    border-radius:5px;
+    color: whitesmoke;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid gray;
+    background: rgb(180, 126, 78); /* this is a light green */
+}
+
+
+/* Popular Accommodations Button on hover */
+#accOrderBtn:hover {
+    color: blanchedalmond;
+    background: rgb(150, 79, 59); /* this is a dark green */
+    border: none;
+    border: 1px solid black;
+    box-shadow: 1px 3px 10px white;
+}
+
+

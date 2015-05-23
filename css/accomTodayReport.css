@@ -1,0 +1,21 @@
+/*
+	Name: accomTodayReport.css
+	Purpose: Style Sheet for the AccommodationsReadyToday.php page
+	Author: Jason O'Neill March '15
+*/
+table, th, td {
+    border: 2px solid white;
+}
+table{
+	margin-left: 130px;
+	margin-top: 20px;
+	width: 720px;
+}
+th{
+	font-size: 24px;
+	color: yellow;
+}
+tr{
+	font-size: 16px;
+	color: white;
+}

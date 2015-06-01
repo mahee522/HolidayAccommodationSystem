@@ -1,7 +1,7 @@
 <?php
-$hostname = "holiday.candept.com";
+$hostname = "*******.com";
 $username = "AdminDB";
-$password = "itcarlow";
+$password = "******";
 
 $dbname = "Holiday";
 
